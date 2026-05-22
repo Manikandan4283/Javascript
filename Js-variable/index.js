@@ -8,6 +8,7 @@ console.log(a + b);
 let c = 10;
 let d = 20;
 c = 30;
+d = "mani";
 console.log(c + d);
 
 const e = 10;
