@@ -43,3 +43,6 @@ console.log(typeof obj);
 
 const set = new Set([1, 2, 3]);
 console.log(typeof set);
+
+const map = new Map();
+console.log(typeof map);
