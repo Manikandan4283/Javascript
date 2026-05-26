@@ -39,4 +39,4 @@ function secondLargest(arr) {
   }
   return secondLargest;
 }
-console.log(secondLargest([1, 2, 3, 4, 5]));
+console.log(secondLargest([1, 2, 3, 122, 43, 54, 89, 90, 4, 5]));
