@@ -40,3 +40,14 @@ function secondLargest(arr) {
   return secondLargest;
 }
 console.log(secondLargest([1, 2, 3, 122, 43, 54, 89, 90, 4, 5]));
+
+function largest(arr) {
+  let largest = arr[0];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > largest) {
+      largest = arr[i];
+    }
+  }
+  return largest;
+}
+console.log(largest([1, 2, 3, 122, 43, 54, 89, 90, 4, 5]));
