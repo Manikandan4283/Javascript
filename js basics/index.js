@@ -30,4 +30,4 @@ for(i=a;i<=100;i++){
 for(i=a;i<=100;i++){
   b +=i;
 }
-  console.log(b)
+  console.log(b);
