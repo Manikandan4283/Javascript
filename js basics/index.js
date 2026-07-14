@@ -31,3 +31,18 @@ for(i=a;i<=100;i++){
   b +=i;
 }
   console.log(b);
+
+  let arr =[101,15,63,94,23,42]
+  let arrNew=arr[0]
+  let smallArr=arr[0]
+
+for(i=0;i<=arr.length;i++){
+
+if(arrNew < arr[i]){
+    arrNew=arr[i]
+}
+else if (smallArr > arr[i]){
+    smallArr=arr[i]
+}
+  }
+  console.log(arrNew,smallArr)
