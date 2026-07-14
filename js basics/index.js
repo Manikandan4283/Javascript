@@ -35,6 +35,8 @@ for(i=a;i<=100;i++){
   let arr =[101,15,63,94,23,42]
   let arrNew=arr[0]
   let smallArr=arr[0]
+  let profit=0
+  let proArr=arr[0]
 
 for(i=0;i<=arr.length;i++){
 
@@ -46,3 +48,21 @@ else if (smallArr > arr[i]){
 }
   }
   console.log(arrNew,smallArr)
+
+  // profit
+
+  for(i=1;i<arr.length;i++){
+    
+    if( arr[i] < proArr){
+        proArr =arr[i]
+
+    }
+    let currentProfit = arr[i] - proArr;
+
+    if (currentProfit > profit) {
+        profit = currentProfit;
+    }
+
+
+}
+console.log(profit)
