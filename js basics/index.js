@@ -65,4 +65,4 @@ else if (smallArr > arr[i]){
 
 
 }
-console.log()
+console.log(profit)
