@@ -87,5 +87,5 @@ a11 = a11 - b11
 
 console.log("a11 =", a11);
 console.log("b11 =", b11);
-console.log('hh')
+
 
