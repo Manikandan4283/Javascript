@@ -49,8 +49,8 @@ for (let i=0; i<arr.length; i++){
         small =arr[i]    
     }
 }
-console.log('large: ' + large)
-console.log('small: ' + small)
+console.log('large: ' + large);
+console.log('small: ' + small);
 
 //Count the vowels in a string.
 
@@ -87,4 +87,5 @@ a11 = a11 - b11
 
 console.log("a11 =", a11);
 console.log("b11 =", b11);
+console.log('hh')
 
