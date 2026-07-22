@@ -28,10 +28,10 @@ for(let i=palStr.length -1 ; i>=0; i--){
    
 }
  if(palB === palStr){
-        console.log('palindrome')
+        console.log('palindrome');
     }
     else{
-        console.log('not palindrome')
+        console.log('not palindrome');
     }
 
 
