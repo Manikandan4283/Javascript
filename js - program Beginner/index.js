@@ -89,3 +89,15 @@ console.log("a11 =", a11);
 console.log("b11 =", b11);
 
 
+// reverse array
+
+
+const reverseArr = [1,2,3,4,5]
+let reverseArr2 =[]
+
+for (i=reverseArr.length -1; i >=0 ; i--){
+reverseArr2 += reverseArr[i]
+
+}
+
+console.log(reverseArr2)
