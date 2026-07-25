@@ -100,4 +100,6 @@ reverseArr2 += reverseArr[i]
 
 }
 
-console.log(reverseArr2)
+console.log(reverseArr2);
+
+const sortArr = [23,45,9,10]
