@@ -66,3 +66,81 @@ else if (smallArr > arr[i]){
 
 }
 console.log(profit)
+
+//Nullish Coalescing (??)
+
+const marks = 0;
+console.log(marks ?? '50')
+console.log(marks || '50')
+
+//Optional Chaining (?.)
+
+const user1 = null;
+
+console.log(user1?.name);
+
+const user = {
+  name: "Manikandan",
+  age: 25
+};
+
+console.log(user?.name);
+
+//while
+
+let ii =1;
+let jj =1;
+
+while(ii <= 5){
+    console.log(ii);
+    ii++
+}
+
+do{
+    console.log(jj)
+    jj++
+}while(jj<=6)
+
+
+// for in
+ 
+for(key in user){
+    console.log(key, user[key])
+}
+
+const fruits = ["Apple", "Orange", "Mango"];
+
+for(index in fruits){
+    console.log(index, fruits[index])
+}
+
+//for of
+
+for(fruit of fruits){
+    console.log(fruit)
+}
+
+const users = [
+    { name: "Mani" },
+    { name: "Arun" },
+    { name: "Ajay" }
+];
+
+for (let user of users) {
+    console.log(user.name);
+}
+
+//break and continue
+
+const usersb = ["Tamil", "English", "Maths", "Science"];
+
+for (let user of usersb) {
+
+    if (user === "Maths") {
+        console.log("User Found");
+        // break;
+        continue;
+    }
+
+    console.log(user);
+}
