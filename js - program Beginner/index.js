@@ -103,3 +103,8 @@ reverseArr2 += reverseArr[i]
 console.log(reverseArr2);
 
 const sortArr = [23,45,9,10]
+
+
+//Remove duplicate values from an array.
+
+const dupArr =[1,2,3,4,2,5,3,6,1,4,7]
