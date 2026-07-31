@@ -38,6 +38,7 @@ console.log(person())
 
 const squre=(a,b)=>{return a * b}
 
-console.log(squre(2,2))
+console.log(squre(2,2));
+
 
 
