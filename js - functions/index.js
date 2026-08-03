@@ -41,4 +41,11 @@ const squre=(a,b)=>{return a * b}
 console.log(squre(2,2));
 
 
+const addd =(a,b)=>(
+    a + b
+)
+
+console.log(addd(2,2));
+
+
 
