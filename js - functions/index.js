@@ -55,6 +55,20 @@ const adddd =(a,b)=>(
 console.log(adddd(2,2));
 
 
+const  greets =(name)=>{
+    return `name: ${name}`
+}
+
+console.log(greets('Manikandan'))
+
+
+sayHi();
+
+function sayHi(){
+    console.log('Hi')
+}; 
+
+
 
 
 
