@@ -64,7 +64,7 @@ console.log(greets('Manikandan'))
 
 sayHi();
 
-function sayHi(){
+const sayHi=()=>{
     console.log('Hi')
 }; 
 
