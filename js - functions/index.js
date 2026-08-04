@@ -48,4 +48,13 @@ const addd =(a,b)=>(
 console.log(addd(2,2));
 
 
+const adddd =(a,b)=>(
+    a + b
+)
+
+console.log(adddd(2,2));
+
+
+
+
 
