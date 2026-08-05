@@ -55,18 +55,30 @@ const adddd =(a,b)=>(
 console.log(adddd(2,2));
 
 
-const  greets =(name)=>{
-    return `name: ${name}`
+// const  greets =(name)=>{
+//     return `name: ${name}`
+// }
+
+// console.log(greets('Manikandan'))
+
+
+// sayHi();
+
+// const sayHi=()=>{
+//     console.log('Hi')
+// }; 
+
+
+
+function reverseString(str) {
+    let result = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+        result += str[i];
+    }
+    return result;
 }
 
-console.log(greets('Manikandan'))
-
-
-sayHi();
-
-const sayHi=()=>{
-    console.log('Hi')
-}; 
+console.log(reverseString("hello")); // olleh
 
 
 
