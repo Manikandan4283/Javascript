@@ -61,6 +61,6 @@ function bankAccount(initialBalance) {
 
 const account = bankAccount(1000);
 
-console.log(account.deposit(500));  // 1500
+console.log(account.deposit(100));  // 1500
 console.log(account.withdraw(200)); // 1300
 console.log(account.getBalance());  // 1300
